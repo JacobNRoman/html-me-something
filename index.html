@@ -2,24 +2,26 @@
 <html>
 <head>
   <title>Jacob's Animal House</title>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
   <header>
     <h2>WELCOME TO THE ANIMAL HOUSE</h2>
     <p>Jacob's house is full of too many animals! How did this happen? And why? Just how many animals are there? Read on to learn more about about Jacob's endless pet-related torment!</p>
     <nav>
-      <h4>The Bestiary</h4>
+      <h3 id="Bestiary">The Bestiary</h3>
       <ul>
-        <li><a href="#Turk">Turk</a></li>
-        <li><a href="#Roman">Roman</a></li>
-        <li><a href="#Susan">Susan</a></li>
-        <li><a href="#Freddie">Freddie</a></li>
-        <li><a href="#CW">CW</a></li>
-        <li><a href="#Zodiac">Zodiac</a></li>
+        <li class="links"><a href="#Turk">Turk</a></li>
+        <li class="links"><a href="#Roman">Roman</a></li>
+        <li class="links"><a href="#Susan">Susan</a></li>
+        <li class="links"><a href="#Freddie">Freddie</a></li>
+        <li class="links"><a href="#CW">CW</a></li>
+        <li class="links"><a href="#Zodiac">Zodiac</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <div class="column.side"></div>
+  <main class="column.middle">
     <article>
       <h3 id="Turk">Turk</h3>
       <img src="Pictures/Turk.jpg" alt="Turk" height=256em width=256em />
@@ -45,6 +47,12 @@
   </main>
   <footer>
     <p>THERE IS A DOG AND FIVE CATS IN THIS HOUSE. </p>
+    <form action="thanks.html">
+      <label>Please submit any ideas on how to remedy this nightmare:
+        <textarea></textarea>
+        <input type="submit" value="please I'm desperate" />
+      </label>
+    </form>
   </footer>
 </body>
 </html>
